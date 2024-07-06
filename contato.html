@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Blog da Reciclagem</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre a Reciclagem</a></li>
+                <li><a href="impactos.html">Impactos Ambientais</a></li>
+                <li><a href="processo.html">Processos de Reciclagem</a></li>
+                <li><a href="contato.html">Formulário de Contato</a></li>
+                <li><a href="faq.html">Perguntas Frequentes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="limitar">
+        <form action="index.html" method="post">
+            <div class="formulario">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" required>
+                <label for="email">Email: </label>
+                <input type="email" name="email" required>
+                <label for="telefone">Telefone: </label>
+                <input type="tel" minlength="8" required>
+                <label for="msg">Mensagem: </label>
+                <textarea name="mensagem" id="msg" cols="20" rows="5" minlength="10" required></textarea>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+    <footer id="meio"><p>&copy Blog da Reciclagem 2024</p></footer>
+</body>
+</html>

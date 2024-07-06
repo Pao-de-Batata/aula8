@@ -1,0 +1,80 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+* {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    margin: 0;
+}
+header {
+    background-color: #27774f;
+    text-align: center;
+    padding-top: 10px;
+}  
+nav {
+    background-color: #1d6740;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+body {
+    background-color: #145632;
+}
+img:hover{
+    opacity: 90%;
+    transform: scale(1.1);
+}
+img{
+    margin: 20px;
+    border-radius: 20px;
+}
+input, textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+input:focus:invalid {
+    box-shadow: none;
+} 
+textarea:invalid{
+    box-shadow: 0 0 5px 1px red;
+}
+input[type = submit]{
+    margin-top: 20px;
+}
+footer#meio{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer#fim{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.formulario{
+    inline-size: 20px;
+}
+.limitar{
+    padding-left: 20px;
+}
